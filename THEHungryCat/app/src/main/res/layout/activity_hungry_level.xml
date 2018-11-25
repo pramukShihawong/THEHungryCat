@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/level"
+    tools:context=".HungryLevelActivity">
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="@color/colorAccent"
+        android:text="answer1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:background="@color/colorAccent"
+        android:text="answer2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:background="@color/colorAccent"
+        android:text="answer3"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@color/colorAccent"
+        android:text="answer4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="116dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="188dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/question"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="3dp"
+        android:text="HUNGUR TESTING"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

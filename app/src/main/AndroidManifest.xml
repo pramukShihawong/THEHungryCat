@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.thehungrycat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GameOverActivity"></activity>
+        <activity android:name=".GameOver2Activity" ></activity>
+        <activity android:name=".GameOver3Activity" ></activity>
+        <activity android:name=".HomeActivity" ></activity>
+        <activity android:name=".HungryCatViews" />
+        <activity android:name=".HungryCatViews2" />
+        <activity android:name=".HungryCatViews3" />
+        <activity android:name=".HungryLevelActivity"></activity>
+        <activity android:name=".LevelGame" ></activity>
+        <activity android:name=".LevelGame2" ></activity>
+        <activity android:name=".LevelGame3" ></activity>
+        <activity android:name=".LevelGame4" ></activity>
+        <activity android:name=".LevelGame5" ></activity>
+        <activity android:name=".LevelGame6" ></activity>
+        <activity android:name=".LevelGame7" ></activity>
+        <activity android:name=".LevelGame8" ></activity>
+        <activity android:name=".LevelGame9" ></activity>
+        <activity android:name=".LevelGame10" ></activity>
+        <activity android:name=".LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".Main2Activity" ></activity>
+        <activity android:name=".Main3Activity" ></activity>
+        <!--<activity android:name=".Question" />-->
+        <activity android:name=".RankingActivity"></activity>
+        <activity android:name=".SplashActivity" ></activity>
+        <activity android:name=".Splash2Activity" ></activity>
+        <activity android:name=".Splash3Activity" ></activity>
+    </application>
+
+</manifest>
